@@ -4,19 +4,118 @@
     <meta charset="UTF-8" />
    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>formulario</title>
   </head>
   <body>
 
+    <h1>Vení al Gym! 💪</h1>
+
+
+    <form action=" https://postman-echo.com/post" method="post" target="_blank">
+    
+      <fieldset>
+        <legend>🙋‍♂️ Datos Personales 👀</legend>
+    
+        <div>
+          <label for="nombre">Nombre: *</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+    
+        <div>
+          <label for="apellido">Apellido: *</label>
+          <input type="text" id="apellido" name="apellido" required>
+        </div>
+    
+        <div>
+          <label for="documento">Documento: *</label>
+          <input type="number" required>
+        </div>
+    
+        <div>
+          <label for="nacionalidad">Nacionalidad: *</label>
+          <input type="select" required>
+        </div>
+
+        <div>
+          <label for="comentarios">Contanos un poco de vos...</label>
+          <input type="textarea" rows="8">
+        </div>
+    
+        <div>
+          <label for="sexo">Sexo: *</label>
+          
+          <input type="radio" name="femenino" value="femenino">
+          <label for="">Femenino</label>
+          <input type="radio" name="masculino" value="masculino">
+          <label for="">Masculino</label>
+          <input type="radio" name="otro" value="otro">
+          <label for="">Otro</label>
+          
+        </div>
+        <fieldset>
+        <legend>📱Datos de Contacto 📧 </legend>
+          <div>
+            <label for="telefono">Teléfono: </label>
+            <input type="number" placeholder="Código de área y número" >
+          </div>
+          <div>
+            <label for="correo">Dirección de correo electrónico *</label>
+            <input type="email" required placeholder="Ej: mail@gmail.com">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>🚴🏽 Actividades 🤸🏽</legend>
+          <p>Por favor, indicar cuales actividades te interesan.</p>
+          <p>Sede Palermo</p>
+          <input type="checkbox" name="actividad" value="basquet">
+          <label for="">Básquet</label>
+          <input type="checkbox" name="actividad" value="boxeo">
+          <label for="">Boxeo</label>
+          <input type="checkbox" name="actividad" value="futbol">
+          <label for="">Fútbol</label>
+          <input type="checkbox" name="actividad" value="tenis">
+          <label for="">Tenis</label>
+
+          <p>Sede Rosario</p>
+          <input type="checkbox" name="actividad" value="basquet">
+          <label for="">Básquet</label>
+          <input type="checkbox" name="actividad" value="futbol">
+          <label for="">Fútbol</label>
+          <input type="checkbox" name="actividad" value="rugby">
+          <label for="">Rugby</label>
+          <input type="checkbox" name="actividad" value="voley">
+          <label for="">Voley</label>
+
+        </fieldset>
+       
+       
+
+        
+    
+    
+      <button type="submit">Iniciar afiliación</button>
+      <button type="reset">Restablecer</button>
+     </form> 
+    
+   
+    
+    
+    <button type="submit">Enviar</button>
+    </form>
+    
     
 
 
 
 
+  <!-- https://www.w3schools.com/html/html_form_attributes.asp
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+    -->
 
 
 
-    
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
