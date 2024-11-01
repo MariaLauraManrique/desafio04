@@ -17,32 +17,40 @@
         <legend>🙋‍♂️ Datos Personales 👀</legend>
     
         <div>
-          <label for="nombre">Nombre: *</label>
+          <label for="nombre">Nombre: *</label><br>
           <input type="text" id="nombre" name="nombre" required>
         </div>
     
         <div>
-          <label for="apellido">Apellido: *</label>
+          <label for="apellido">Apellido: *</label><br>
           <input type="text" id="apellido" name="apellido" required>
         </div>
     
         <div>
-          <label for="documento">Documento: *</label>
-          <input type="number" required>
+          <label for="documento">Documento: *</label><br>
+          <input type="text" required>
         </div>
     
         <div>
-          <label for="nacionalidad">Nacionalidad: *</label>
-          <input type="select" required>
+          <label for="nacionalidad">Nacionalidad: *</label><br>
+          <select name="menu" required>
+            <option value="1">Seleccionar</option>
+            <option value="2">Argentina</option>
+            <option value="2">Bolivia</option>
+            <option value="2">Brazil</option>
+            <option value="3">Chile</option>
+            <option value="4">Paraguay</option>
+            <option value="5">Uruguay</option>
+          </select>
         </div>
 
         <div>
-          <label for="comentarios">Contanos un poco de vos...</label>
-          <input type="textarea" rows="8">
+          <label for="comentarios">Contanos un poco de vos...</label><br>
+          <textarea name="textarea" rows="10" cols="20"></textarea>
         </div>
     
         <div>
-          <label for="sexo">Sexo: *</label>
+          <label for="sexo">Sexo: *</label><br>
           
           <input type="radio" name="femenino" value="femenino">
           <label for="">Femenino</label>
@@ -55,11 +63,11 @@
         <fieldset>
         <legend>📱Datos de Contacto 📧 </legend>
           <div>
-            <label for="telefono">Teléfono: </label>
+            <label for="telefono">Teléfono: </label><br>
             <input type="number" placeholder="Código de área y número" >
           </div>
           <div>
-            <label for="correo">Dirección de correo electrónico *</label>
+            <label for="correo">Dirección de correo electrónico *</label><br>
             <input type="email" required placeholder="Ej: mail@gmail.com">
           </div>
         </fieldset>
@@ -89,20 +97,23 @@
 
         </fieldset>
        
-       
+       <form>
+        <div>
+          <input type="checkbox" name="condiciones" value="condiciones" required>
+          <label for="">Acepto las condiciones*</label><br><br>
+          <input type="checkbox" name="novedades" value="novedades">
+          <label for="">Deseo recibir novedades</label>
+          <p>*: campo obligatorio.</p>
+        </div>
+
+       </form>
 
         
     
     
       <button type="submit">Iniciar afiliación</button>
       <button type="reset">Restablecer</button>
-     </form> 
-    
-   
-    
-    
-    <button type="submit">Enviar</button>
-    </form>
+     
     
     
 
