@@ -4,25 +4,31 @@ html{
  }
 h1{
   color:#e8eaed;
-  border-top:20px solid #4d6d63;
-  border-bottom:20px solid #4d6d63;
-
   text-align: center;
   font-size: 50px;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
  }
+div.bordes{
+  box-sizing: border-box;
+  border:20px solid #4d6d63;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 30px;
+ 
+}
 
 legend{
   background-color: #2b3d37;
   color:#fdecd1;
   font-family:'Poppins', sans-serif ;
-  font-size: 40px;
+  font-size: 30px;
   border-radius: 5px;
   width: 350px;
   height: 50px;
-  text-align: center center;
+  align-items: left;
   margin-top: 20px;
-}
+  }
 
 fieldset{
   background-color: #a6c1b9;
@@ -31,6 +37,7 @@ fieldset{
   font-family:'Roboto', sans-serif; 
   margin-bottom: 70px;
   padding: 40px;
+  
 }
 
 #color-blanco{
@@ -76,6 +83,14 @@ form{
 .margen-superior{
   margin-top: 30px;
 }
-a:active{
+input:active{
   background-color: #4d6d63;
 }
+textarea:active{
+  background-color: #4d6d63;
+}
+
+.borde-punteado{
+  border: 2px dotted #a6c1b9;
+  margin-bottom: 30px;
+  }
