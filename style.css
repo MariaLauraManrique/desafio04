@@ -8,15 +8,18 @@ h1{
   font-size: 50px;
   font-family: 'Poppins', sans-serif;
   margin: 0;
- }
+  }
+
 div.bordes{
-  box-sizing: border-box;
+  box-sizing:border-box;
   border:20px solid #4d6d63;
   border-left: none;
   border-right: none;
   margin-bottom: 30px;
- 
-}
+  width: 900px;
+  margin-left: 220px;
+  
+  }
 
 legend{
   background-color: #2b3d37;
@@ -28,7 +31,7 @@ legend{
   height: 50px;
   align-items: left;
   margin-top: 20px;
-  }
+}
 
 fieldset{
   background-color: #a6c1b9;
@@ -91,6 +94,11 @@ textarea:active{
 }
 
 .borde-punteado{
-  border: 2px dotted #a6c1b9;
+  border: 10px dotted #a6c1b9;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
   margin-bottom: 30px;
-  }
+  width: 200px;
+  margin-left: 350px;
+}
