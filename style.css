@@ -9,13 +9,10 @@ h1{
   margin: 0;
   }
 
-.borde-top{
+.bordes{
   border:20px ridge #4d6d63;
   border-left: none;
   border-right: none;
-  
- /* border-top: 20px ridge #4d6d63;*/
-   
   margin-bottom: 30px;
   width: 900px;
   margin-left: 220px;  
