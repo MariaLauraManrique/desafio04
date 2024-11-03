@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+html{ 
+    background-color: #d3770e;
+    background-image: url(/imagenes/imagen-retro.webp);
+    }
+
+  h1{
+    color:#18f850;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Leckerli One", cursive;
+    margin: 0;
+    }
+  
+  .bordes{
+    border:20px ridge #d3770e;
+    margin-bottom: 30px;
+    width: 850px;
+    margin-left: 220px;  
+   } 
+     
+  legend{
+    background-color: #72b7f0;
+    color:#b43030;
+    font-family: "Leckerli One", normal;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    align-items: left;
+    margin-top: 20px;
+    }
+  
+  fieldset{
+    background-color: #f0b3d1;
+    border: 2px  solid #8d4d72;
+    border-radius: 20px;
+    font-family:"Leckerli One", normal; 
+    margin-bottom: 70px;
+    padding: 40px;
+    
+  }
+  
+  #color-blanco{
+    color: #fff;
+  
+  }
+  
+  .margen{
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  button{
+    background-color: #35fd56;
+    color: #f5f10a;
+    font-family:"Leckerli One", normal;
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid #bbec07;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 150px;
+    }
+   
+  form{
+    display:block;
+    align-items: center;
+    margin: auto;
+    width: 900px;
+  }
+  
+  .ancho-celda{
+    width: 650px;
+  }
+  
+  .centrado{
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  .margen-izquierdo{
+    margin-left: 250px;
+  }
+  .margen-superior{
+    margin-top: 30px;
+  }
+  input:active{
+    background-color: #8b193f;
+  }
+  textarea:active{
+    background-color: #8b193f;
+  }
+  
+  .borde-punteado{
+    border: 10px dotted #4ce74c;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30px;
+    width: 200px;
+    margin-left: 350px;
+  }
