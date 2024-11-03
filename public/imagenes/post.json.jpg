@@ -1,0 +1,52 @@
+{
+  "args": {},
+  "data": "",
+  "files": {},
+  "form": {
+    "nombre": "maria",
+    "apellido": "manrique",
+    "menu": "2",
+    "textarea": "Me gusta el tenis",
+    "genero": "femenino",
+    "actividad": "tenis",
+    "condiciones": "condiciones",
+    "novedades": "novedades"
+  },
+  "headers": {
+    "host": "postman-echo.com",
+    "x-request-start": "t=1730635886.817",
+    "connection": "close",
+    "content-length": "140",
+    "x-forwarded-proto": "https",
+    "x-forwarded-port": "443",
+    "x-amzn-trace-id": "Root=1-6727686e-0b9e76e91b6087de1740dc75",
+    "cache-control": "max-age=0",
+    "sec-ch-ua": "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "origin": "http://localhost:5173",
+    "content-type": "application/x-www-form-urlencoded",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "sec-fetch-dest": "document",
+    "referer": "http://localhost:5173/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "es-ES,es;q=0.9",
+    "priority": "u=0, i"
+  },
+  "json": {
+    "nombre": "maria",
+    "apellido": "manrique",
+    "menu": "2",
+    "textarea": "Me gusta el tenis",
+    "genero": "femenino",
+    "actividad": "tenis",
+    "condiciones": "condiciones",
+    "novedades": "novedades"
+  },
+  "url": "https://postman-echo.com/post"
+}
