@@ -10,20 +10,13 @@ h1{
   }
 
 .bordes{
-  border:20px ridge #4d6d63;
-  border-left: none;
-  border-right: none;
+  border:20px solid #4d6d63;
+  border-left: 20px solid #1f2023 ;
+  border-right: 20px solid #1f2023;
   margin-bottom: 30px;
   width: 900px;
   margin-left: 220px;  
  } 
-/*div.borde-bottom{
-  box-sizing: border-box;
-  border-bottom: 20px  groove #4d6d63;
-  margin-bottom: 30px;
-  width: 900px;
-  margin-left: 220px;
- } */
    
 legend{
   background-color: #2b3d37;
